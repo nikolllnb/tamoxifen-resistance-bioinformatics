@@ -1,0 +1,8 @@
+# Verify sample order before analysis
+print(colnames(expression_matrix))
+stopifnot(grepl('Ctrl', colnames(expression_matrix)[1]))
+stopifnot(grepl('Ctrl', colnames(expression_matrix)[2]))
+stopifnot(grepl('Ctrl', colnames(expression_matrix)[3]))
+stopifnot(grepl('TR1', colnames(expression_matrix)[4]))
+stopifnot(grepl('TR1', colnames(expression_matrix)[5]))
+stopifnot(grepl('TR1', colnames(expression_matrix)[6]))

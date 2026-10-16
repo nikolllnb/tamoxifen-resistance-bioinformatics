@@ -1,0 +1,10 @@
+# Raw and intermediate data
+data/*.CEL
+data/*.CEL.gz
+data/*.tar
+data/*.rds
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
