@@ -1,4 +1,4 @@
-# Verify sample order before analysis
+
 print(colnames(expression_matrix))
 stopifnot(grepl('Ctrl', colnames(expression_matrix)[1]))
 stopifnot(grepl('Ctrl', colnames(expression_matrix)[2]))
