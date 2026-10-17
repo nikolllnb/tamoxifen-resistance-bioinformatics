@@ -1,4 +1,4 @@
-# Differential expression: TR1 vs parental controls
+
 library(limma)
 library(AnnotationDbi)
 library(hgu133plus2.db)
