@@ -36,7 +36,7 @@ PCA showed separation between parental controls and resistant samples, with addi
 
 The TR1-versus-control analysis identified numerous differentially expressed probes. The volcano plot shows estimated fold changes and statistical significance.
 
-![Volcano plot](figures/volcano_TR1_vs_Control.png)
+![Volcano plot](volcano_TR1_vs_Control.png)
 
 ### 3. Upregulated genes: TGF-β/SMAD-associated processes
 
@@ -44,7 +44,7 @@ GO enrichment highlighted TGF-β receptor signalling and related transcriptional
 
 These findings suggest that TGF-β/SMAD-associated processes warrant further investigation. Enrichment alone does not prove pathway activation or causality.
 
-![Upregulated GO enrichment](figures/GO_enrichment_upregulated.png)
+![Upregulated GO enrichment](GO_enrichment_upregulated.png)
 
 ### 4. Downregulated genes: interferon/antiviral-associated processes
 
@@ -52,7 +52,7 @@ Downregulated genes were enriched for GO terms related to antiviral and interfer
 
 These results indicate differences in expression of genes annotated to these processes; they do not establish altered immune function or explain how resistance developed.
 
-![Downregulated GO enrichment](figures/GO_enrichment_downregulated.png)
+![Downregulated GO enrichment](GO_enrichment_downregulated.png)
 
 ## Repository Structure
 
