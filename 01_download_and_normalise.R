@@ -1,5 +1,3 @@
-# Tamoxifen resistance bioinformatics project
-# Step 1: Load and normalise Affymetrix microarray data
 
 library(GEOquery)
 library(affy)
