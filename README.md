@@ -30,7 +30,7 @@ The primary differential-expression analysis compares TR1-resistant cells with p
 
 PCA showed separation between parental controls and resistant samples, with additional differences between TR1 and TR2. These patterns suggest differences in transcriptomic profiles but do not establish their biological cause.
 
-![PCA sample clustering](figures/PCA_sample_clustering.png)
+![PCA sample clustering](PCA_sample_clustering.png)
 
 ### 2. Differential expression
 
