@@ -1,5 +1,3 @@
-# Enrichment analysis and figure generation
-# Tamoxifen resistance project
 
 setwd("/home/nikolnb/tamoxifen_resistance_project")
 
@@ -8,10 +6,9 @@ library(GO.db)
 library(org.Hs.eg.db)
 library(pheatmap)
 
-# Load differential-expression results
+
 res <- read.csv("results/TR1_vs_Control_annotated.csv")
 
-# Select significant genes using the thresholds from the analysis
 sig <- res[!is.na(res$adj.P.Val) & res$adj.P.Val < 0.05, ]
 
 up_genes <- unique(na.omit(
